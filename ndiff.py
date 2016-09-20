@@ -69,7 +69,6 @@ def diff_groups(file1, grp1, file2, grp2, path):
         if desc1[name]["htype"] != "dataset":
             continue
         # compare data
-        fld1 = desc1[name]
         if desc1[name]["dtype"] != desc2[name]["dtype"]:
             d1 = desc1[name]["dtype"]
             d2 = desc2[name]["dtype"]
